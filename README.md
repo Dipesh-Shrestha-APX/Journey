@@ -13,3 +13,6 @@ July 8:
   till date I learnt about the components of the Langchain and got hands on witht LLM ChatModel and the EmbeddingModels and tested a
   sample code to compare the query with the document and fetch the correct corresponding document i.e. Performing the semantic search
   and the codes are uploaded in the endToEndProject section
+
+
+  learnt about the Dataloader and Dataset class and updated the training pipeline accordingly
