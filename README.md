@@ -24,3 +24,14 @@ July 9:
 
 July 10:
     Continued learning of Pytorch and built a ANN training pipeline from scratch and used 6000 row dataset of Mnist to predict the class of the fashion items and got an accuracy of 83.08% which i will improve later on...
+    Used GPU and trained the model on larger dataset of around 48K and got accuracy of 88.67%
+    learned to perform:
+      #GPU:
+      # used larger dataset
+      # created device object from cuda GPU
+      # moved model to GPU
+      # moved data from dataloader during training and inference to GPU
+      # increased batch size during dataloader creation
+      # enable the pin memory 
+          # i.e instead of pager to pin mem directly to pin memory
+          
