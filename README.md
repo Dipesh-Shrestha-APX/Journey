@@ -16,3 +16,11 @@ July 8:
 
 
   learnt about the Dataloader and Dataset class and updated the training pipeline accordingly
+
+
+July 9:
+    Today i learnt some plots and such of Matplotlib and practiced it
+
+
+July 10:
+    Continued learning of Pytorch and built a ANN training pipeline from scratch and used 6000 row dataset of Mnist to predict the class of the fashion items and got an accuracy of 83.08% which i will improve later on...
