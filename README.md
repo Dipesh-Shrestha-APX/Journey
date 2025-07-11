@@ -1,37 +1,82 @@
-june 25:
-  till date i just complete 13 video playlist on numpy and practiced it. you can see the codes in the learnings section. till date i just completed 15 video playlist on pandas and practiced it.you can see the codes in the learning section
+# 📘 Learning Progress Journal
 
-july 1:
-  till date i just trained a basic model and ran it as a Flask app in a server online and i can acccess it
+This document tracks my day-by-day journey in learning Data Science, Machine Learning, and Deep Learning. It includes milestones, hands-on practice, and project updates.
+
+---
+
+## 📅 June 25
+
+- ✅ Completed a **13-video playlist on NumPy**  
+  → Practiced core NumPy concepts  
+  → _Code available in the `learnings` section_
+
+- ✅ Completed a **15-video playlist on Pandas**  
+  → Practiced data manipulation and analysis  
+  → _Code available in the `learnings` section_
+
+---
+
+## 📅 July 1
+
+- 🚀 Trained my **first basic ML model**
+- 🌐 Deployed it using **Flask** on a cloud server  
+  → Accessible online through a working endpoint
+
+---
+
+## 📅 July 6
+
+- 🧠 Learned the fundamentals of **PyTorch**:
+  - Tensors
+  - `autograd`
+  - `nn.Module`
+- 🛠️ Built a basic **training pipeline** using PyTorch
+
+---
+
+## 📅 July 8
+
+- 🔍 Explored **LangChain components**:
+  - Chat Models
+  - Embedding Models  
+- ✅ Performed **semantic search**:
+  → Compared queries with documents and returned the best match  
+  → _Code in the `endToEndProject` section_
+
+- 📦 Learned about `Dataset` and `DataLoader` classes  
+  → Updated the PyTorch training pipeline accordingly
+
+---
+
+## 📅 July 9
+
+- 📊 Practiced basic **Matplotlib** plotting and visualization techniques
+
+---
+
+## 📅 July 10
+
+- 🤖 Built a complete **ANN (Artificial Neural Network) training pipeline** from scratch using PyTorch
+- 📈 Dataset: Fashion MNIST  
+  → Trained on 6,000 rows → Accuracy: **83.08%**  
+  → Trained on full dataset (~48,000 rows) using GPU → Accuracy: **88.67%**
+
+### ⚙️ GPU Optimization Techniques Used:
+- Created `device` object using `cuda`
+- Moved model and data to GPU
+- Increased batch size for efficiency
+- Enabled **pin memory** for faster data transfer
+
+---
+
+## 📌 Next Steps
+
+- Improve ANN accuracy through hyperparameter tuning
+- Begin working on CNNs (Convolutional Neural Networks)
+- Explore transfer learning using pre-trained models
 
 
-july 6:
-  till date I learnt about the Pytorch tensors, autograd, nnmodule and how to build a trainingpipeline
+## 📅 July 11
 
-  
-July 8:
-  till date I learnt about the components of the Langchain and got hands on witht LLM ChatModel and the EmbeddingModels and tested a
-  sample code to compare the query with the document and fetch the correct corresponding document i.e. Performing the semantic search
-  and the codes are uploaded in the endToEndProject section
+- Today I learned about different parameters used in `pd.read_csv()` while working with CSV files.
 
-
-  learnt about the Dataloader and Dataset class and updated the training pipeline accordingly
-
-
-July 9:
-    Today i learnt some plots and such of Matplotlib and practiced it
-
-
-July 10:
-    Continued learning of Pytorch and built a ANN training pipeline from scratch and used 6000 row dataset of Mnist to predict the class of the fashion items and got an accuracy of 83.08% which i will improve later on...
-    Used GPU and trained the model on larger dataset of around 48K and got accuracy of 88.67%
-    learned to perform:
-      #GPU:
-      # used larger dataset
-      # created device object from cuda GPU
-      # moved model to GPU
-      # moved data from dataloader during training and inference to GPU
-      # increased batch size during dataloader creation
-      # enable the pin memory 
-          # i.e instead of pager to pin mem directly to pin memory
-          
