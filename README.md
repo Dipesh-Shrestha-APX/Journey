@@ -84,13 +84,10 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📅 July 12
 
-- 📚 Learnt the concept of **Estimator**, which includes  
-  both `predictors` and `transformers`, and explored  
-  their different types and roles in the scikit-learn framework.
+- 📚 Learnt the concept of **Estimator**, which includes both `predictors` and `transformers`, and explored their different types and roles
+in the scikit-learn framework, including how they interact in building ML workflows.
 
-- ✅ Mastered the foundational concepts required to build  
-  and use estimators — including custom transformers,  
-  predictors, mixins, pipelines, and column transformations.  
-  Also covered the usage of core methods like `.fit()`,  
-  `.transform()`, `.fit_transform()`, and `.predict()`.
+- ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,
+and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
+
 
