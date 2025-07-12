@@ -84,7 +84,7 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📅 July 12
 
-# ⚙️ scikit-learn (sklearn) Essentials
+### ⚙️ scikit-learn (sklearn) Essentials
 
 - 📚 Learnt the concept of **Estimator**, which includes both `predictors` and `transformers`, and explored their different types and roles
 in the scikit-learn framework, including how they interact in building ML workflows.
