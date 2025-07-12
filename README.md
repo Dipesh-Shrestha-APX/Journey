@@ -80,3 +80,17 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 - Today I learned about different parameters used in `pd.read_csv()` while working with CSV files.
 
+---
+
+## 📅 July 12
+
+- 📚 Learnt the concept of **Estimator**, which includes  
+  both `predictors` and `transformers`, and explored  
+  their different types and roles in the scikit-learn framework.
+
+- ✅ Mastered the foundational concepts required to build  
+  and use estimators — including custom transformers,  
+  predictors, mixins, pipelines, and column transformations.  
+  Also covered the usage of core methods like `.fit()`,  
+  `.transform()`, `.fit_transform()`, and `.predict()`.
+
