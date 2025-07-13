@@ -6,9 +6,13 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📅 June 25
 
+### 🧮 NumPy — The Foundation of Numerical Computing in Python
+
 - ✅ Completed a **13-video playlist on NumPy**  
   → Practiced core NumPy concepts  
   → _Code available in the `learnings` section_
+
+### 🐼 Pandas — Powerful Data Analysis and Manipulation Tool
 
 - ✅ Completed a **15-video playlist on Pandas**  
   → Practiced data manipulation and analysis  
@@ -26,6 +30,8 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📅 July 6
 
+### 🔥 PyTorch — Deep Learning Framework that Feels Like Python
+
 - 🧠 Learned the fundamentals of **PyTorch**:
   - Tensors
   - `autograd`
@@ -35,6 +41,8 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 ---
 
 ## 📅 July 8
+
+### 🦜 LangChain — Build LLM-Powered Applications with Ease
 
 - 🔍 Explored **LangChain components**:
   - Chat Models
@@ -49,6 +57,8 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 ---
 
 ## 📅 July 9
+
+### 📊 Matplotlib — Create Stunning Visualizations in Python
 
 - 📊 Practiced basic **Matplotlib** plotting and visualization techniques
 
@@ -79,4 +89,17 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 ## 📅 July 11
 
 - Today I learned about different parameters used in `pd.read_csv()` while working with CSV files.
+
+---
+
+## 📅 July 12
+
+### ⚙️ scikit-learn (sklearn) Essentials
+
+- 📚 Learnt the concept of **Estimator**, which includes both `predictors` and `transformers`, and explored their different types and roles
+in the scikit-learn framework, including how they interact in building ML workflows.
+
+- ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,
+and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
+
 
