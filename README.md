@@ -1,6 +1,7 @@
 # 📘 Learning Progress Journal
 
-This document tracks my day-by-day journey in learning Data Science, Machine Learning, and Deep Learning. It includes milestones, hands-on practice, and project updates.
+This document tracks my day-by-day journey in learning Data Science, Machine Learning, and Deep Learning.  
+It includes milestones, hands-on practice, and project updates.
 
 ---
 
@@ -47,7 +48,7 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 - 🔍 Explored **LangChain components**:
   - Chat Models
   - Embedding Models  
-- ✅ Performed **semantic search**:
+- ✅ Performed **semantic search**:  
   → Compared queries with documents and returned the best match  
   → _Code in the `endToEndProject` section_
 
@@ -66,12 +67,13 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📅 July 10
 
-- 🤖 Built a complete **ANN (Artificial Neural Network) training pipeline** from scratch using PyTorch
+- 🤖 Built a complete **ANN (Artificial Neural Network) training pipeline** from scratch using PyTorch  
 - 📈 Dataset: Fashion MNIST  
   → Trained on 6,000 rows → Accuracy: **83.08%**  
   → Trained on full dataset (~48,000 rows) using GPU → Accuracy: **88.67%**
 
 ### ⚙️ GPU Optimization Techniques Used:
+
 - Created `device` object using `cuda`
 - Moved model and data to GPU
 - Increased batch size for efficiency
@@ -81,14 +83,15 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ## 📌 Next Steps
 
-- Improve ANN accuracy through hyperparameter tuning
-- Begin working on CNNs (Convolutional Neural Networks)
-- Explore transfer learning using pre-trained models
+- 🔧 Improve ANN accuracy through hyperparameter tuning
+- 🧱 Begin working on CNNs (Convolutional Neural Networks)
+- 🔄 Explore transfer learning using pre-trained models
 
+---
 
 ## 📅 July 11
 
-- Today I learned about different parameters used in `pd.read_csv()` while working with CSV files.
+- 📂 Learnt about different parameters used in `pd.read_csv()` while working with CSV files.
 
 ---
 
@@ -96,18 +99,22 @@ This document tracks my day-by-day journey in learning Data Science, Machine Lea
 
 ### ⚙️ scikit-learn (sklearn) Essentials
 
-- 📚 Learnt the concept of **Estimator**, which includes both `predictors` and `transformers`, and explored their different types and roles
-in the scikit-learn framework, including how they interact in building ML workflows.
+- 📚 Learnt the concept of **Estimator**, which includes both `predictors` and `transformers`, and explored their different types and roles  
+  in the scikit-learn framework, including how they interact in building ML workflows.
 
-- ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,
-and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
+- ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,  
+  and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
+
+---
 
 ## 📅 July 13
 
 ### 🌐 Prompt Engineering & UI Integration
 
 - 📦 Learnt the basics of how to **pass prompts** to an **API** and a **local server**, understanding the flow from backend to model interaction.  
-- 🖥️ Built a simple **Streamlit UI** to send prompts and receive responses, connecting the front-end interface with the backend logic.  
+- 🖥️ Built a simple **Streamlit UI** to send prompts and receive responses, connecting the front-end interface with the backend logic.
+
+---
 
 ## 📅 July 14
 
@@ -117,13 +124,10 @@ and column transformations. Also covered the proper usage of `.fit()`, `.transfo
   Discovered how to:
   - 🔍 Compare different algorithms based on performance metrics like **accuracy**
   - 🧠 Select the **best algorithm** automatically
-  - ⚙️ Find the **best parameter values** using Optuna's powerful search and pruning features  
+  - ⚙️ Find the **best parameter values** using Optuna's powerful search and pruning features
 
 ### 🧠 ANN Regularization Techniques
 
 - 🔧 Practiced optimizing **Artificial Neural Networks (ANNs)** using:
   - 🧲 **L2 Regularization** to prevent overfitting by penalizing large weights  
-  - 🌧️ **Dropout** to randomly deactivate neurons during training and improve generalization  
-
-
-
+  - 🌧️ **Dropout** to randomly deactivate neurons during training and improve generalization
