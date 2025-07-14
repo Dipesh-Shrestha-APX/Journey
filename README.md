@@ -102,6 +102,13 @@ in the scikit-learn framework, including how they interact in building ML workfl
 - ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,
 and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
 
+## 📅 July 13
+
+### 🌐 Prompt Engineering & UI Integration
+
+- 📦 Learnt the basics of how to **pass prompts** to an **API** and a **local server**, understanding the flow from backend to model interaction.  
+- 🖥️ Built a simple **Streamlit UI** to send prompts and receive responses, connecting the front-end interface with the backend logic.  
+
 ## 📅 July 14
 
 ### 🧪 Optuna & Hyperparameter Optimization
