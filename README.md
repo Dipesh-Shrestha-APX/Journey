@@ -118,7 +118,7 @@ It includes milestones, hands-on practice, and project updates.
 
 ## 📅 July 14
 
-### 🧪 Optuna & Hyperparameter Optimization with PyTorch
+### 🧪 Optuna & Hyperparameter Optimization with PyTorch 🔥
 
 - 🚀 Learnt what the **Optuna** framework is, and explored how to perform **hyperparameter tuning** across multiple algorithms.  
   Discovered how to:
