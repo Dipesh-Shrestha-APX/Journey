@@ -124,10 +124,17 @@ It includes milestones, hands-on practice, and project updates.
   Discovered how to:
   - 🔍 Compare different algorithms based on performance metrics like **accuracy**
   - 🧠 Select the **best algorithm** automatically
-  - ⚙️ Find the **best parameter values** using Optuna's powerful search and pruning features
+  - ⚙️ Find the **best parameter values** using Optuna's powerful search and pruning features  
+
+- 🧪 Utilized the learnt hyperparameter tuning to optimize the previously built **ANN model** by exploring different hyperparameters:
+  - Layers: number of hidden layers, neurons per layer  
+  - Training: `epochs`, `batch_size`, `dropout_rate`  
+  - Optimizer settings: `optimizer`, `weight_decay`, `learning_rate`  
+  → Ran **3 trials**, and achieved a model accuracy of **88.26%**
 
 ### 🧠 ANN Regularization Techniques
 
 - 🔧 Practiced optimizing **Artificial Neural Networks (ANNs)** using:
   - 🧲 **L2 Regularization** to prevent overfitting by penalizing large weights  
   - 🌧️ **Dropout** to randomly deactivate neurons during training and improve generalization
+
