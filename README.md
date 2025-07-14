@@ -102,4 +102,21 @@ in the scikit-learn framework, including how they interact in building ML workfl
 - ✅ Mastered the foundational concepts required to build and use estimators — including custom transformers, predictors, mixins, pipelines,
 and column transformations. Also covered the proper usage of `.fit()`, `.transform()`, `.fit_transform()`, and `.predict()` methods within different stages of model development.
 
+## 📅 July 14
+
+### 🧪 Optuna & Hyperparameter Optimization
+
+- 🚀 Learnt what the **Optuna** framework is, and explored how to perform **hyperparameter tuning** across multiple algorithms.  
+  Discovered how to:
+  - 🔍 Compare different algorithms based on performance metrics like **accuracy**
+  - 🧠 Select the **best algorithm** automatically
+  - ⚙️ Find the **best parameter values** using Optuna's powerful search and pruning features  
+
+### 🧠 ANN Regularization Techniques
+
+- 🔧 Practiced optimizing **Artificial Neural Networks (ANNs)** using:
+  - 🧲 **L2 Regularization** to prevent overfitting by penalizing large weights  
+  - 🌧️ **Dropout** to randomly deactivate neurons during training and improve generalization  
+
+
 
