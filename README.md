@@ -138,3 +138,16 @@ It includes milestones, hands-on practice, and project updates.
   - 🧲 **L2 Regularization** to prevent overfitting by penalizing large weights  
   - 🌧️ **Dropout** to randomly deactivate neurons during training and improve generalization
 
+---
+
+### 📅 July 16
+
+🧠 **CNN Learning Step 1: MNIST Classification**
+
+🔹 Built a **LeNet-5 architecture** using 🧪✨ **TensorFlow**  
+📊 Achieved **98.74% accuracy** on the **test set**
+
+🔹 Built a **basic CNN pipeline** using 🔥 **PyTorch**  
+📈 Achieved **99.93% accuracy** on the **training set**  
+📉 Achieved **92.97% accuracy** on the **test set**
+
