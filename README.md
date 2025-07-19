@@ -151,3 +151,21 @@ It includes milestones, hands-on practice, and project updates.
 📈 Achieved **99.93% accuracy** on the **training set**  
 📉 Achieved **92.97% accuracy** on the **test set**
 
+---
+
+## 📘 July 17: Transfer Learning & Data Augmentation
+
+🔹 Explored the fundamentals of **Transfer Learning** using 🧪✨ **TensorFlow**  
+&nbsp;&nbsp;&nbsp;&nbsp;▫️ **Feature Learning Method**: Used pre-trained CNNs to extract high-level features  
+&nbsp;&nbsp;&nbsp;&nbsp;▫️ **Fine-Tuning Method**: Unfroze and retrained upper layers of the model for task-specific tuning
+
+🔹 Learnt and applied **Data Augmentation** 🧪 to expand dataset diversity and improve model generalization
+
+---
+
+## 📘 July 19: Transfer Learning in Practice
+
+🔹 Implemented **Transfer Learning (Feature Learning Method)** using 🔥 **PyTorch**  
+📊 Achieved **88.06% test accuracy** on a custom dataset  
+✅ Demonstrated the effectiveness of using pre-trained models with limited data
+
