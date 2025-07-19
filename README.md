@@ -155,11 +155,11 @@ It includes milestones, hands-on practice, and project updates.
 
 ## 📘 July 17: Transfer Learning & Data Augmentation
 
-🔹 Explored the fundamentals of **Transfer Learning** using 🔥 **PyTorch**  
+🔹 Explored the fundamentals of **Transfer Learning** using 🧪✨ **TensorFlow**  
 &nbsp;&nbsp;&nbsp;&nbsp;▫️ **Feature Learning Method**: Used pre-trained CNNs to extract high-level features  
-&nbsp;&nbsp;&nbsp;&nbsp;▫️ **Fine-Tuning Method**: Unfroze and retrained upper layers of the model for adaptation
+&nbsp;&nbsp;&nbsp;&nbsp;▫️ **Fine-Tuning Method**: Unfroze and retrained upper layers of the model for task-specific tuning
 
-🔹 Learnt and applied **Data Augmentation** 🧪 to improve dataset diversity and boost model robustness
+🔹 Learnt and applied **Data Augmentation** 🧪 to expand dataset diversity and improve model generalization
 
 ---
 
@@ -167,6 +167,5 @@ It includes milestones, hands-on practice, and project updates.
 
 🔹 Implemented **Transfer Learning (Feature Learning Method)** using 🔥 **PyTorch**  
 📊 Achieved **88.06% test accuracy** on a custom dataset  
-✅ Validated the effectiveness of using pre-trained models with limited training data
-
+✅ Demonstrated the effectiveness of using pre-trained models with limited data
 
