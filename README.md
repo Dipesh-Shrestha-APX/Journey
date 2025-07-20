@@ -163,9 +163,13 @@ It includes milestones, hands-on practice, and project updates.
 
 ---
 
-## 📘 July 19: Transfer Learning in Practice
+## 📘 July 19: Transfer Learning & RNN Concepts
 
 🔹 Implemented **Transfer Learning (Feature Learning Method)** using 🔥 **PyTorch**  
-📊 Achieved **88.06% test accuracy** on a custom dataset  
-✅ Demonstrated the effectiveness of using pre-trained models with limited data
+📊 Achieved **88.06% test accuracy** on a custom dataset
+
+🔹 Learnt about **Integer Encoding** and **Embedding Layers** from 🧪✨ **Keras**  
+🧠 Implemented them within an **RNN** architecture  
+🔁 Studied the working of **RNN Forward Propagation** and how sequential data flows through time steps
+
 
