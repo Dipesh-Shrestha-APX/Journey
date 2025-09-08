@@ -1,0 +1,11 @@
+========== Training Run ==========
+Model: MultinomialNB_tfidf
+Time Taken: 2.159390926361084 seconds
+Accuracy: 0.8349
+Confusion Matrix:
+[[1331  118]
+ [ 376 1168]]
+
+Dataset size:
+14961
+

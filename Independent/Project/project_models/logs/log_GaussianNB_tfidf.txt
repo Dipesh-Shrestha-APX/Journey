@@ -1,0 +1,11 @@
+========== Training Run ==========
+Model: GaussianNB_tfidf
+Time Taken: 7.5979578495025635 seconds
+Accuracy: 0.6375
+Confusion Matrix:
+[[656 325]
+ [399 617]]
+
+Dataset size:
+9983
+

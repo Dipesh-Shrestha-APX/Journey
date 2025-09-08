@@ -1,0 +1,11 @@
+========== Training Run ==========
+Model: GaussianNB
+Time Taken: 11.677737951278687 seconds
+Accuracy: 0.6494
+Confusion Matrix:
+[[906 298]
+ [542 650]]
+
+Dataset size:
+11977
+

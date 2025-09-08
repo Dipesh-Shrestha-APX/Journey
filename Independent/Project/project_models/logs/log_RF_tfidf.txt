@@ -1,0 +1,11 @@
+========== Training Run ==========
+Model: RF
+Time Taken: 85.83629655838013 seconds
+Accuracy: 0.8493
+Confusion Matrix:
+[[849 132]
+ [169 847]]
+
+Dataset size:
+9983
+

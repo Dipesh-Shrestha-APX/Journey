@@ -1,0 +1,11 @@
+========== Training Run ==========
+Model: MultinomialNB
+Time Taken: 65.91242551803589 seconds
+Accuracy: 0.8487
+Confusion Matrix:
+[[1778  274]
+ [ 329 1604]]
+
+Dataset size:
+19925
+
