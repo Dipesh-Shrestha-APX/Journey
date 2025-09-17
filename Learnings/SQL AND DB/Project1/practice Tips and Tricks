@@ -1,0 +1,8 @@
+# COPY LINE INSTANTLY
+shift alt arrow 
+
+# move to end or beginning of line INSTANTLY
+cntrl arrow
+
+# Select the current line
+cntrl l
