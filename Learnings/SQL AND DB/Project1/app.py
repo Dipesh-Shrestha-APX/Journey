@@ -16,8 +16,16 @@ conn.autocommit = True
 # db_name = "dipesh"
 # cur.execute(sql.SQL("CREATE DATABASE {db}}").format(db = sql.Identifier(db_name)))
 
+## Table deletion or dropping
+# tb_name = "Person"
+# sqlCode = sql.SQL("DROP TABLE {tb};")
+# cur.execute(sqlCode.format(tb = sql.Identifier(tb_name)))
+            
 ## Table creation
-tb_name = "Person"
+tb_name = "person"
+# tb_name = "Person" 
+  ## This way makes case sensitive
+  ## And you would need to call like (select * from "Person")
 sqlCode = sql.SQL("""
                   CREATE TABLE IF NOT EXISTS {tb}(
                     id INT PRIMARY KEY,
@@ -28,12 +36,13 @@ sqlCode = sql.SQL("""
 
 cur.execute(sqlCode.format(tb = sql.Identifier(tb_name)))
 
-cur.execute(sql.SQL("""
-    INSERT INTO Person(id, name, gender) VALUES
-                    (1, "ram", M),
-                    (1, "ram", M),
-                    (1, "ram", M),
-                    """))
+insertQuery = sql.SQL("""
+    INSERT INTO {tb}(id, name, gender) VALUES
+                    (4, 'hari', 'M'),
+                    (6, 'radha', 'F'),
+                    (5, 'laxmi', 'F') ;
+                    """)
+cur.execute(insertQuery.format(tb = sql.Identifier(tb_name)))
 
 # Close cursor
 cur.close()
