@@ -1,0 +1,81 @@
+PS D:\Journey> & C:\Users\hp\AppData\Local\Programs\Python\Python39\python.exe "d:/Journey/Learnings/SQL AND DB/Project1/app.py"
+Connection has been established
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    1
+Enter your name: xoxo
+Enter your gender: M
+SQL('INSERT INTO person(name, gender) VALUES(%s,%s);')
+Successfully registered
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    2
+Enter your name: xoxo
+Enter your gender: M
+Yes you're registered here
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    3
+Enter your name: xoxo
+Enter your gender: M
+Enter your new name: oxox
+Enter your new gender: F
+Updated the table
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    2
+Enter your name: xoxo
+Enter your gender: M
+You're not registered here
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    2
+Enter your name: oxox
+Enter your gender: F
+Yes you're registered here
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    4
+Enter your name: oxox 
+Enter your gender: F
+Record deleted successfully
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user
+    2
+Enter your name: oxox
+Enter your gender: F
+You're not registered here
+
+          Select the option:
+          1) Register new user
+          3) Validate the user
+          3) Update the user info
+          4) Delete the user

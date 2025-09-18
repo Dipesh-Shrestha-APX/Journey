@@ -53,3 +53,17 @@ cur.close()
 conn.close()
 
 
+
+## Update the id column to do auto_increment using sequence
+# -- Make sure the id column auto-increments
+# ALTER TABLE person 
+# ALTER COLUMN id SET DEFAULT nextval('person_id_seq');
+
+# -- If the sequence doesn't exist, create it:
+# CREATE SEQUENCE person_id_seq START 1;
+
+# -- Link it to the id column
+# ALTER TABLE person ALTER COLUMN id SET DEFAULT nextval('person_id_seq');
+
+# -- Make sure the sequence starts after current max id
+# SELECT setval('person_id_seq', COALESCE((SELECT MAX(id) FROM person), 1));
