@@ -1,0 +1,55 @@
+_______
+
+DDL
+_______
+
+create database if not exists Dipesh
+
+create table if not exists users(
+	id integer Unique not null auto increment primary key, 
+	name varchar(255), 	
+	gender varchar(255) Default("Male"), 
+	dob datetime,
+	age integer Check(age<15 and age>25), 
+	email varchar(255), 
+	password varchar(255), 
+	foreign key course_id references courses(cid),
+	constraint u_email unique(email,name));
+
+truncate table users
+drop table users
+alter table users modify column password char
+alter table users delete column password
+alter table users add column pass varchar(255)
+alter table users drop constraint u_email 
+alter table users add constraint u_Only_email unique(email)
+
+______
+
+DML
+______
+
+Order of execution: From, Join, Where, GroupBy, having, select, distinct, order by
+		    from john wick guns have selected distinct orders
+
+
+insert into users(name, email) values(ram, email)
+insert into users values(<<<everything is to be put here>>>)
+
+BETWEEN: select * from users where age between 15 and 25
+DISTINCT: select distinct gender from users
+AS: select gender as sex from users
+IN: select * from movies where genre in (comedy, sci-fiction)
+WildCards: select * from movies where name="%man"
+Constant using AS: select movie_id, movie_name, 10000 as compensation from movies
+Expression: select age-25+2000 as year_of_birth from users
+
+update table users set(name = "sita") where email="ram@gmail.com"
+
+delete from users where 1
+delete from users where name = "sita"
+
+______
+
+DCL
+______
