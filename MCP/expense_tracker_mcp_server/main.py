@@ -11,6 +11,8 @@ DB_PASSWORD = os.getenv("POSTGRES_PASSWORD", "dipesh@123")
 DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
 DB_PORT = os.getenv("POSTGRES_PORT", "5432")
 
+CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
+
 mcp = FastMCP("ExpenseTracker")
 
 # --- Helper function for connections ---
@@ -121,7 +123,7 @@ def delete_expense(date):
                 return f"No records found for {date}"
             return f"{cur.rowcount} record(s) deleted for {date}"
 
-        
+# Update the expenses table at particular date with new data 
 @mcp.tool()
 def update_expense(date, amount, category, subcategory="", note=""):
     """Update expense details for a specific date."""
@@ -140,6 +142,12 @@ def update_expense(date, amount, category, subcategory="", note=""):
             conn.commit()
             return f"{cur.rowcount} record(s) updated for {date}"
 
+# --- Resource: Categories JSON ---
+@mcp.resource("expense://categories", mime_type="application/json")
+def categories():
+    # Read fresh each time so you can edit the file without restarting
+    with open(CATEGORIES_PATH, "r", encoding="utf-8") as f:
+        return f.read()
 
 if __name__ == "__main__":
     mcp.run()
